@@ -1,0 +1,21 @@
+.timer {
+  display: flex;
+  /* justify-content: space-around; */
+  font-size: 30px;
+}
+
+.field {
+  /* display: inline; */
+  margin-right: 30px;
+}
+
+.field .value {
+  font-size: 60px;
+  text-align: center;
+  display: block;
+}
+
+.field .label {
+  display: block;
+  text-align: center;
+}
