@@ -8,6 +8,8 @@ const bodyRef = document.querySelector('body');
 const startBtnRef = document.querySelector('button[data-start]');
 const stopBtnRef = document.querySelector('button[data-stop]');
 
+let timerId = null;
+
 stopBtnRef.disabled = true;
 
 startBtnRef.addEventListener('click', startSwitcherHandle);

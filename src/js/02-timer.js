@@ -9,6 +9,8 @@ const countOfMinutesRef = document.querySelector('span[data-minutes]');
 const countOfSecondsRef = document.querySelector('span[data-seconds]');
 const inputDateRef = document.querySelector('input[type="text"]');
 
+let timerId = null;
+
 startBtnRef.disabled = true;
 
 const options = {
